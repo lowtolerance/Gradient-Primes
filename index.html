@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>"Prime number" CSS gradient backgrounds</title>
+    <style type="text/css">
+    	html {	
+    	/*Moz*/
+    		background-image: 
+        		-moz-radial-gradient(50% 50%, circle closest-corner, rgba(0,0,0,0) 60%, rgba(171,176,190,.5)),
+        		-moz-repeating-linear-gradient(left, rgba(0,0,0,0) 0,rgba(0,0,0,0) 11px, rgba(239,234,211,.6) 11px, rgba(191,169,124,1) 31px, rgba(0,0,0,0) 31px, rgba(0,0,0,0) 53px), 
+        		-moz-repeating-linear-gradient(left, rgba(145, 5, 54, .6), rgba(145,5,54, .2) 18px, rgba(229,36,0,.4) 19px, rgba(0,0,0,0) 19px, rgba(0,0,0,0) 37px),
+        		-moz-repeating-linear-gradient(left, rgba(125, 167, 180,.4), rgba(75, 119, 130, .4) 15px, rgba(0,0,0,0) 15px, rgba(0,0,0,0) 29px);
+        		
+        /*Webkit (new syntax)*/		
+        	background-image:
+        		-webkit-radial-gradient(50% 50%, circle closest-corner, rgba(0,0,0,0) 50%, rgba(171,176,190,.5)),
+        		-webkit-repeating-linear-gradient(left, rgba(0,0,0,0) 0,rgba(0,0,0,0) 11px, rgba(239,234,211,.6) 11px, rgba(191,169,124,1) 31px, rgba(0,0,0,0) 31px, rgba(0,0,0,0) 53px), 
+        		-webkit-repeating-linear-gradient(left, rgba(145, 5, 54, .6), rgba(145,5,54, .2) 19px, rgba(0,0,0,0) 19px, rgba(0,0,0,0) 37px),
+        		-webkit-repeating-linear-gradient(left, rgba(125, 167, 180,.4), rgba(75, 119, 130, .4) 15px, rgba(0,0,0,0) 15px, rgba(0,0,0,0) 29px);
+    		height: 100%;
+		}
+		
+		h1 {
+			margin-top: 110px;
+			text-align: center;
+			font-size: 12em;
+			color: rgba(255,243,233,1);
+			text-shadow: 3px 3px 3px rgba(55,43,33,.8);
+			font-family: Arial, sans-serif;
+		}
+		
+		span {
+			color: #d9abbd;
+			font-size: 1.1em;
+		}
+		div {
+			background-color: rgba(255,255,255,.8);
+			width: 75%;
+			margin: 0 auto;
+			padding: 20px 0;
+			border: 1px solid;
+			border-radius: 20px 20px 0 0;
+			box-shadow: 5px 5px 0 rgba(40,40,40,.5);
+		}
+    </style>
+</head>
+<body>
+	<h1>I<br><span>&hearts;</span><br>CSS</h1>
+	<div>
+	<pre>
+	html {<br>
+	    background-image:<br>
+        		radial-gradient(
+        			50% 50%, 
+        			circle closest-corner, 
+        			rgba(0,0,0,0) 50%, 
+        			rgba(171,176,190,.5)
+        		),<br>
+        		repeating-linear-gradient(
+        			left, 
+        			rgba(0,0,0,0) 0,
+        			rgba(0,0,0,0) 11px, 
+        			rgba(239,234,211,.6) 11px, 
+        			rgba(191,169,124,1) 31px, 
+        			rgba(0,0,0,0) 31px, 
+        			rgba(0,0,0,0) 53px
+        		),<br>
+        		repeating-linear-gradient(
+        		    left, 
+        		    rgba(145, 5, 54, .6), 
+        		    rgba(145,5,54, .2) 19px, 
+        		    rgba(0,0,0,0) 19px, 
+        		    rgba(0,0,0,0) 37px
+        		),<br>
+        		repeating-linear-gradient(left, 
+        		    rgba(125, 167, 180,.4), 
+        		    rgba(75, 119, 130, .4) 15px, 
+        		    rgba(0,0,0,0) 15px, 
+        		    rgba(0,0,0,0) 29px
+        		);<br>
+    	    height:100%;<br>
+        }
+	</pre>
+	</div>
+</body>
+</html>
